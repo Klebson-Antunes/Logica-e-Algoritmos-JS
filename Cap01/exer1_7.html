@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1_7</title>
+</head>
+<body>
+    <script>
+    /*
+    Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.
+    */
+     // Entrada de dados
+     const jantar = Number(prompt("Digite o valor do jantar: "));
+
+     // Processameno dos dados
+     const garcom = jantar * 0.10; // 10 / 100 = 0.10
+     const total = jantar + garcom;
+
+     // Saida dos dados
+
+     console.log(`Taxa do garçom R$: ${garcom.toFixed(2)} \nTotal R$: ${total.toFixed(2)}`)
+
+    </script>
+</body>
+</html>
