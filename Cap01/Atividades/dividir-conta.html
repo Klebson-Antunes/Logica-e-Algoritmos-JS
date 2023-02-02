@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - dividir conta</title>
+</head>
+<body>
+    <script>
+       /*
+         Elaborar um programa para uma pizzaria, oqual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.
+       */
+
+       // Entrada
+       const valorDaConta = Number(prompt("Digite o valor da conta: "));
+       const numeroPagantes = Number(prompt("Digite o N° de pagantes: "));
+
+       // Processamento
+       const valorPorPagantes = valorDaConta / numeroPagantes;
+
+       // Saida
+       console.log(`Valor da Conta: ${valorDaConta.toFixed(2)} \nNúmero de Clientes(Pagantes): ${numeroPagantes} \nValor por Cliente(Pagante): ${valorPorPagantes.toFixed(2)}`)
+    </script>
+</body>
+</html>

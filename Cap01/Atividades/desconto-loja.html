@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - Desconto á vista</title>
+</head>
+<body>
+    <script>
+       /*
+         Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento á vista com 10% de desconto e o valor em 3x.
+       */
+
+       // Entrada
+       const precoProduto = Number(prompt("Digite o preço do produto: "));
+
+       // Processamento
+       const calculoPorcentagem = precoProduto * 0.10;
+       const descontoAVista = precoProduto - calculoPorcentagem;
+       
+       const pagamentoTresVezes = precoProduto / 3;
+
+       // Saida
+       console.log(`Preço R$: ${precoProduto.toFixed(2)} \nÁ Vista R$: ${descontoAVista.toFixed(2)} \nOu 3x de R$: ${pagamentoTresVezes.toFixed(2)}`)
+    </script>
+</body>
+</html>
