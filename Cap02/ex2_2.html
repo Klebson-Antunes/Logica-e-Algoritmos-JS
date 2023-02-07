@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cap02 - 2_2</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: rgb(201, 214, 214);
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Cine JS: Filmes em Cartaz</h1>
+
+        <form action="">
+            <label for="inTitulo">Titulo do Filme:</label>
+            <input type="text" id="inTitulo" required>
+
+            <label for="inDuracao">Duração (min):</label>
+            <input type="number" name="" id="inDuracao" required>
+
+            <input type="submit" value="Converter em Horas e Minutos">
+        </form>
+
+        <h3></h3>
+        <h4></h4>
+    </section>
+
+
+    <script src="./js/ex2_2.js"></script>
+</body>
+
+</html>
