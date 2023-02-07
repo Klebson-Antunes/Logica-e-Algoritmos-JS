@@ -1,3 +1,5 @@
 # Lógica e Algoritimos com JavaScript
 
-<p>Readme em construção.</p>
+ Estudando o Livro de Lógica e algoritimos:
+
+ <img width="250" src="./img/livro.jpeg">
