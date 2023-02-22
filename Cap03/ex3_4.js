@@ -1,5 +1,5 @@
 /**
- Elaborar um programa para uma veterinária, que leia o peso de uma ração em kg e o qunato um gato consome por dia da ração, em gramas. Informe quantos dias irá durar a ração e o quanto sobra da ração em gramas.
+ Elaborar um programa para uma veterinária, que leia o peso de uma ração em kg e o quanto um gato consome por dia da ração, em gramas. Informe quantos dias irá durar a ração e o quanto sobra da ração em gramas.
  */
 
 const prompt = require('prompt-sync')(); // Adiciona o pacote ao programa
