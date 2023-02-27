@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Parquímetro</title>
+    <style>
+        body {
+            background-color: rgb(186, 219, 219);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1rem;
+
+        }
+        .container {
+            width: 45%;
+            height: 400px;
+            background-color: rgb(121, 103, 79);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 1rem;
+            
+        }
+        input[type="submit"] {
+            display: block;
+            padding: 0.8rem;
+            margin-top: 15px;
+            
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: red;
+        }
+        table, tr, td {
+            border: 1px solid black;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Programa Parquímetro</h1>
+    <table>
+        <tr>
+            <th>Valor R$</th>
+            <th>Tempo(min)</th>
+        </tr>
+        <tr>
+            <td>1.00</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>1.75</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>3.00</td>
+            <td>120</td>
+        </tr>
+    </table>
+    <section class="container">
+        <form action="">
+            <label for="inValor">Valor R$:</label>
+            <input type="number" min="0" step="0.01" id="inValor" required>
+
+            <input type="submit" value="Confirmar Depósito">
+        </form>
+        <h3 id="resposta1"></h3>
+        <h3 id="resposta2"></h3>
+    </section>
+
+    <script src="./3-parquimetro.js"></script>
+</body>
+</html>
